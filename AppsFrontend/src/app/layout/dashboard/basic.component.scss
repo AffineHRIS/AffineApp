@@ -1,0 +1,66 @@
+label {
+  font-size: 12px !important
+}
+.main-container {
+    padding: 35px 10px;
+    -ms-overflow-x: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    overflow: visible;
+	  margin: 70px 0 0 0;
+    order:2;
+    flex-grow: 1;
+    min-height: 85vh;
+    background-image: url("../../../assets/images/bg.png");
+    background-repeat: no-repeat;
+    background-position: 0px 150px;
+    background-size: 25%;
+}
+@media screen and (max-width: 992px) {
+    .main-container {
+
+    }
+}
+
+.first-middle-box {
+  text-align: left;
+  vertical-align: middle;
+  border-right:1px solid #f1f1f1;
+  border-bottom:1px solid #f1f1f1;
+  padding:35px 15px;
+}
+.last-box {
+  text-align: left;
+  vertical-align: middle;
+  border-bottom:1px solid #f1f1f1;
+  padding:35px 15px;
+}
+.h4 {
+  margin-top: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+p {
+  color: #aaa
+}
+
+.modal-dialog {
+    max-width: 75% !important;
+    margin: 30px auto;
+}
+.modal-ul {
+  list-style-image: url('../../../assets/images/popup-star.png');
+  list-style-position: outside;
+  li {
+    font-size: 20px;
+    font-weight: 600;
+    padding:10px;
+    color:#07384B;
+  }
+}
+.no-link {
+  color:#afafaf;
+}

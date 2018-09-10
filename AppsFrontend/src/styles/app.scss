@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/bootstrap";
+@import "spinner";
+@import "utils";
+@import "rtl";
+@import "responsive";
+
+html, body {
+	background-color: #fff;
+}
+
+.no-pad {
+	padding:0px
+}
+.alert-h5 {
+	color:#f00;
+	font-size:14px;
+}
+
+// .main-container {
+//    background: none !important;
+// }
+//
+// .footer-section {
+// 	position: initial !important;
+//   background: none !important;
+// }

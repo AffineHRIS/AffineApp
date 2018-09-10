@@ -1,0 +1,181 @@
+<section class="main-container">
+<div class="tracker-section">
+    <div class="row">
+      <div class="col-md-4 first-middle-box">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/images/Marketing-icon.png" width="120px" />
+            </div>
+            <div class="col-md-8">
+                <h4 class="h4" (click)="open(marketing)"> Marketing </h4>
+                <!-- <p> Lorem Ipsum simply dummy text of the file </p> -->
+            </div>
+
+            <ng-template #marketing let-c="close" let-d="dismiss">
+              <div class="modal-header">
+                <h4 class="modal-title" id="modal-basic-title"> <img src="assets/images/pop-up-marketing-icon.png" width="80px" /> Marketing </h4>
+                <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="modal-ul">
+                    <li> Market mix modeling for a <a href="http://34.192.212.18:8080/Webtool/views/marketingreport.html" target="_blank" > Tech Company </a> and for a <a href="#" class="no-link">Tech & Fitness Company </a> </li>
+                    <li> Multi-Brand Portfolio Management for a <a href="http://104.237.155.36:4000/" target="_blank"> Retail/Gaming Companies </a> </li>
+                    <li> Demand Forecasting & Launch Planning  for a <a href="#" class="no-link"> CPG company </a> </li>
+                    <li> Hyper Personalized Customer Targeting for a <a href="#" class="no-link"> Travel & hospitality </a> </li>
+                    <li> User Driven Customer/Store Segmentation using available data for a <a href="http://34.192.212.18:8080/TandC/home.html" target="_blank"> CPG/Retail companies </a> </li>
+                    <li> A/B Testing for a <a href="#" class="no-link"> E-Commerce Company </a> </li>
+                    <li> Survey Data Mining - drivers of sale for a <a href="#" class="no-link"> Tech companies </a> </li>
+                </ul>
+              </div>
+            </ng-template>
+
+        </div>
+      </div>
+      <div class="col-md-4 first-middle-box">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="assets/images/Pricing-icon.png" width="120px" />
+              </div>
+              <div class="col-md-8">
+                  <h4 class="h4" (click)="open(pricing)"> Pricing </h4>
+                  <!-- <p> Lorem Ipsum simply dummy text of the file </p> -->
+              </div>
+
+              <ng-template #pricing let-c="close" let-d="dismiss">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-basic-title"> <img src="assets/images/Pricing-pop-up.png" width="80px" /> Pricing </h4>
+                  <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
+                </div>
+                <div class="modal-body">
+                  <ul class="modal-ul">
+                      <li> Agile Pricing Optimization  (multi-objective) for an <a href="#" class="no-link"> Auto Retailer </a> </li>
+                      <li> Mark Down Optimization for a <a href="#" class="no-link"> Retail Companies </a>  </li>
+                  </ul>
+                </div>
+              </ng-template>
+          </div>
+      </div>
+      <div class="col-md-4 last-box">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="assets/images/planning-and-merchandiinf-icon.png" width="120px" />
+              </div>
+              <div class="col-md-8">
+                  <h4 class="h4" (click)="open(Planning_Merchandizing)"> Planning & merchandizing </h4>
+                  <!-- <p> Lorem Ipsum simply dummy text of the file </p> -->
+              </div>
+
+              <ng-template #Planning_Merchandizing let-c="close" let-d="dismiss">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-basic-title"> <img src="assets/images/planning-and-merch-pop-up.png" width="80px" /> Planning & merchandizing </h4>
+                  <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
+                </div>
+                <div class="modal-body">
+                  <ul class="modal-ul">
+                      <li> Assortment Planning <a href="#" class="no-link"> Retail Companies </a> </li>
+                      <li> Product Affinity for a <a href="#" class="no-link"> Retail Companies </a>  </li>
+                      <li> Inventory Management for a <a href="#" class="no-link"> Retail Companies </a>  and <a href="#" class="no-link"> Automotive Dealership </a> </li>
+                  </ul>
+                </div>
+              </ng-template>
+          </div>
+      </div>
+
+      <div class="col-md-4 first-middle-box">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/images/AI-icon.png" width="120px" />
+            </div>
+            <div class="col-md-8">
+                <h4 class="h4" (click)="open(Artificial_Inteligence)"> Artificial Intelligence </h4>
+                <!-- <p> Lorem Ipsum simply dummy text of the file </p> -->
+            </div>
+        </div>
+
+        <ng-template #Artificial_Inteligence let-c="close" let-d="dismiss">
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title"> <img src="assets/images/AI-popup.png" width="80px" /> Artificial Intelligence </h4>
+            <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+          </div>
+          <div class="modal-body">
+            <ul class="modal-ul">
+                <li> Traffic Management Solution for  <a href="http://smarttraffic.affineanalytics.co.in/" target="_blank"> Kolkata Traffic Police  </a> </li>
+                <li> Vision based <a  target="_blank" [routerLink]="['/parkingmanagement']" href="javascript:void(0)">
+                   Parking Management System
+                </a> </li>
+                <li> Image based Fraud Detection for <a href="#" class="no-link"> CPG Company </a>   </li>
+                <li> OCR for Document Management for  <a href="http://182.156.213.182:8080/resumereader" target="_blank"> HR Team  </a>  </li>
+                <li> Text Categorizer for <a href="http://34.237.6.64:8080/TextCategorizer/" target="_blank"> Indian Railways  </a>  </li>
+                <li> VOC (Voice of Customer) from Social Media for a  <a href="http://voc.affineanalytics.co.in/" target="_blank"> National Bank  </a>  </li>
+                <li> Chatbots for a <a [routerLink]="['/chatbot']" href="javascript:void(0)" target="_blank"> Shopping Mall </a> and a <a [routerLink]="['/chatbotbank']" href="javascript:void(0)" target="_blank"> Bank Assistant  </a>  </li>
+                <li> Recommender Systems for a <a href="#" class="no-link"> Retailer </a>  </li>
+                <li> Predictive Maintenance for an  <a href="#" class="no-link"> Energy Company </a>  </li>
+            </ul>
+          </div>
+        </ng-template>
+      </div>
+      <div class="col-md-4 first-middle-box">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="assets/images/logistics-icon.png" width="120px" />
+              </div>
+              <div class="col-md-8">
+                  <h4 class="h4" (click)="open(Logistics)"> Logistics </h4>
+                  <!-- <p> Lorem Ipsum simply dummy text of the file </p> -->
+              </div>
+
+              <ng-template #Logistics let-c="close" let-d="dismiss">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-basic-title"> <img src="assets/images/logistics-pop-up.png" width="80px" /> Logistics </h4>
+                  <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="modal-ul">
+                      <li> Productivity Dashboard for a  <a href="#" class="no-link"> Logistics </a> </li>
+                  </ul>
+                </div>
+              </ng-template>
+          </div>
+      </div>
+      <div class="col-md-4 last-box">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="assets/images/operations-icon.png" width="120px" />
+              </div>
+              <div class="col-md-8">
+                  <h4 class="h4" (click)="open(Operations)"> Operations </h4>
+                  <!-- <p> Lorem Ipsum simply dummy text of the file </p> -->
+              </div>
+
+              <ng-template #Operations let-c="close" let-d="dismiss">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-basic-title"> <img src="assets/images/operations-pop-up.png" width="80px" /> Operations </h4>
+                  <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="modal-ul">
+                      <li> Operations & Scheduling for a <a href="#" class="no-link"> Tech Companies </a> </li>
+                      <li> Employee Productivity Monitoring for a <a href="#" class="no-link"> Insurance Companies </a> </li>
+                  </ul>
+                </div>
+              </ng-template>
+          </div>
+      </div>
+    </div>
+</div>
+</section>

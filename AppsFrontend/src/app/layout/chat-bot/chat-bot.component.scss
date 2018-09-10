@@ -1,0 +1,65 @@
+label {
+  font-size: 12px !important
+}
+.main-container {
+    padding: 35px 0px;
+    -ms-overflow-x: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    overflow: visible;
+	  margin: 70px 0 0 0;
+    order:2;
+    flex-grow: 1;
+    min-height: 85vh;
+    background-image: url("../../../assets/images/bg.png");
+    background-repeat: no-repeat;
+    background-position: 0px 150px;
+    background-size: 25%;
+}
+@media screen and (max-width: 992px) {
+    .main-container {
+
+    }
+}
+.management {
+  padding:5px 25px;
+  .h4 {
+    margin: 20px 0px;
+    color: #94ca53;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .video {
+    width: 100%;
+  height: 400px;
+  background: #eaffd082;
+  border: 2px solid #eaffd082;
+  }
+}
+.chat-bot-box {
+  width:100%;
+  height:auto;
+  text-align: center;
+}
+.chat-img {
+  width: 100%;
+  margin:0px auto;
+  margin-top: -62px;
+}
+.iframe {
+  position: absolute;
+    top: 14%;
+    right: 36.53%;
+    height: 49%;
+    border: 1px solid #00b4d5;
+    width: 26.75%;
+  .wc-header {
+      background-color: #24aee4 !important;
+  }
+}
+.index {
+  z-index:9;
+  padding:0px
+}
