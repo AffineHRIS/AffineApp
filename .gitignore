@@ -1,0 +1,9 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+/AppsBackend/node_modules
+/AppsBackend/package-lock.json
+
+/AppsFrontend/dist
+/AppsFrontend/node_modules
+/AppsFrontend/src/environments
+/AppsFrontend/package-lock.json
