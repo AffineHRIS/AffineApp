@@ -28,6 +28,9 @@ export class HeaderComponent implements OnInit {
       else if (this.currentURL == '#/chatbot' || this.currentURL == '#/chatbotbank') {
           this.headername = 'A³SP Chatbot '
       }
+      else if (this.currentURL == '#/facialrecognition') {
+          this.headername = 'A³SP Facial Recognition Solutions '
+      }
       else {
           this.headername = 'A³SP – Affine Advanced Analytics Solution Platform';
       }

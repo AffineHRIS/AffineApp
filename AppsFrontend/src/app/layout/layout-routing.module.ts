@@ -25,6 +25,14 @@ const routes: Routes = [
                 loadChildren: './parking-management/parking-management.module#ParkingManagementModule'
             },
             {
+                path: 'facialrecognition',
+                loadChildren: './facial-recognition/facial-recognition.module#FacialRecognitionModule'
+            },
+            {
+                path: 'facialrecognition/:id',
+                loadChildren: './facial-recognition/facial-recognition.module#FacialRecognitionModule'
+            },
+            {
                 path: 'chatbot',
                 loadChildren: './chat-bot/chat-bot.module#ChatBotModule'
             },
