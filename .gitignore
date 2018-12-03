@@ -1,0 +1,16 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+
+/AppsFrontend/node_modules/*
+/AppsBackend/node_modules/*
+
+# environment files
+/AppsFrontend/src/environments/*.ts
+
+# production files
+/AppsFrontend/dist/*
+
+# Package-lock.json
+/AppsFrontend/package-lock.json
+/AppsBackend/package-lock.json
